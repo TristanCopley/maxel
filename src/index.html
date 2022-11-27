@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxel</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <!-- 
+        Deny access from safari and EI users
+        Deny acces from people who disabled javascript
+    -->
+    <canvas id='map'></canvas>
+
+    <div id='toolbar'>
+
+        <div class="tool" id="colorWheel">
+            <span class="material-symbols-outlined icon">palette</span>
+        </div>
+        <div class="tool" id="paintTool">
+            <span class="material-symbols-outlined icon">brush</span>
+        </div>
+        <div class="tool selected" id="moveTool">
+            <span class="material-symbols-outlined icon">open_with</span>
+        </div>
+
+    </div>
+    <div id="colorContainer">
+        <div id="colorIcon">
+            <span> #ff001f </span>
+        </div>
+    </div>
+    <div id='color-palette'>
+        <div id="color-palette-color"></div>
+        <div id="color-palette-mouse">
+
+            <span>100</span>
+
+        </div>
+    </div>
+
+    <div id='brightness-palette'>
+        <div id="brightness-palette-color"></div>
+        <div id="brightness-palette-mouse">
+
+            <span>100</span>
+
+        </div>
+    </div>
+ 
+</body>
+<script src="https://cdn.socket.io/4.5.4/socket.io.min.js" integrity="sha384-/KNQL8Nu5gCHLqwqfQjA689Hhoqgi2S84SNUxC3roTe4EhJ9AfLkp8QiQcU8AMzI" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+</html>
