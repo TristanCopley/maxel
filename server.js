@@ -1,4 +1,6 @@
 const env = require('dotenv').config();
+var ip = require("ip");
+console.dir ( ip.address() );
 const express = require('express');
 const port = 3000;
 const app = express();
@@ -9,6 +11,7 @@ const path = require('path');
 const io = new Server(server);
 
 const firebaseConfig = {
+    
     apiKey: env.parsed.APIKEY,
     authDomain: env.parsed.AUTHDOMAIN,
     databaseURL: env.parsed.DATABASEURL,
@@ -17,6 +20,7 @@ const firebaseConfig = {
     messagingSenderId: env.parsed.MESSAGINGSENDERID,
     appId: env.parsed.APPID,
     measurementId: env.parsed.MEASUREMENTID
+
 };
 
 const firebase = require("firebase/app");
