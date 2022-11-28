@@ -67,7 +67,9 @@ async function setMap(sz) {
         }
 
         await firestore.setDoc(firestore.doc(db, "map", `${i}`), {
+
             data: slice
+
         });
 
     }
@@ -89,7 +91,9 @@ async function updateDatabase() {
         }
 
         await firestore.setDoc(firestore.doc(db, "map", `${i}`), {
+
             data: slice
+
         });
 
     }
