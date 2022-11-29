@@ -3,8 +3,8 @@
 Maxel
 --------------
 
-[![Superhighway84](maxelpng.png)](http://13.56.13.208/)
-
-<img src="maxelpng.png>
+<img alt="Maxel" src="https://github.com/TristanCopley/maxel/blob/master/maxelpng.png?raw=true" href="http://13.56.13.208/" width="30%">
+<img alt="Maxel" src="https://github.com/TristanCopley/maxel/blob/master/maxelpng.png?raw=true" href="http://13.56.13.208/" width="30%">
+<img alt="Maxel" src="https://github.com/TristanCopley/maxel/blob/master/maxelpng.png?raw=true" href="http://13.56.13.208/" width="30%">
 
 </div>
